@@ -4,6 +4,7 @@ html {
     font-size: 16px;
     margin-left: 24px;
     margin-right: 24px;
+    color: #222222;
 }
 /* Header Section */
 .desktop-header { 
@@ -12,7 +13,7 @@ html {
     height: 64px;
     width: 100%;
     align-items: center;
-    z-index: 100%;
+    z-index: 1;
     background-color: white;
     Top: 0;
     background-color: white;
@@ -63,13 +64,14 @@ nav {
     display: flex;
     position: relative;
     justify-content: center;
+    width: 100%;
     
 }
- .left-image {
+ .left-image1 {
      width: 60%;
  }
 
-.left-image img {
+.left-image1 img {
     width: 100%;
     margin: 32px;
 
@@ -91,8 +93,69 @@ button {
     color: white;
     width: 100%;
 }
+/* Mobile Start Here Section */
 
 /* About Section */
+#about { 
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    width: 100%;
+    align-items: flex-start;
+    padding: 64px;
+    
+}
+
+.left-image2 {
+    width: 60%;
+    border: 1px solid blue;
+    padding: 32px 24px;
+    
+}
+
+.left-image2 img {
+   width: 100%;
+   
+}
+
+.right-columns {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 40%;
+    padding: 18px 0;
+    border: 1px solid red;
+}
+
+.column {
+    padding: 16px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.column img {
+    width: 100%;
+    height: auto;
+}
+
+.about-images { 
+    width: 35%;
+    height: auto;
+}
+
+#lecture {
+    background-color:rgb(214, 214, 214);
+}
+
+.about-text {
+    width: 65%;
+    padding: 0 16px;
+    margin-right: 24px;
+}
+
+
+
 
 /* Start Learning Section */
 

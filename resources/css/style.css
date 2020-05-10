@@ -102,7 +102,7 @@ button {
     justify-content: center;
     width: 100%;
     align-items: flex-start;
-    padding: 64px;
+    padding: 64px 0;
     
 }
 
@@ -122,7 +122,8 @@ button {
     flex-direction: column;
     justify-content: center;
     width: 40%;
-    padding: 18px 0;
+    padding: 18px;
+    margin-right: 40px;
 }
 
 .column {
@@ -149,7 +150,6 @@ button {
 .about-text {
     width: 65%;
     padding: 0 16px;
-    margin-right: 24px;
 }
 
 .about-text a {

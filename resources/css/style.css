@@ -108,7 +108,6 @@ button {
 
 .left-image2 {
     width: 60%;
-    border: 1px solid blue;
     padding: 32px 24px;
     
 }
@@ -124,7 +123,6 @@ button {
     justify-content: center;
     width: 40%;
     padding: 18px 0;
-    border: 1px solid red;
 }
 
 .column {
@@ -152,6 +150,11 @@ button {
     width: 65%;
     padding: 0 16px;
     margin-right: 24px;
+}
+
+.about-text a {
+    color: rgb(90, 146, 168);
+    text-decoration: none;
 }
 
 

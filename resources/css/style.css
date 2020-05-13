@@ -6,6 +6,10 @@ html {
     margin-right: 24px;
     color: #222222;
 }
+
+body {
+    width: 1200px;
+}
 /* Header Section */
 .desktop-header { 
     display: flex;
@@ -98,7 +102,6 @@ button {
 /* About Section */
 #about { 
     display: flex;
-    position: absolute;
     justify-content: center;
     width: 100%;
     align-items: flex-start;
@@ -157,10 +160,53 @@ button {
     text-decoration: none;
 }
 
-
-
-
 /* Start Learning Section */
+#h2start {
+    background-color:rgb(233, 233, 233) ;
+    padding: 32px;
+    width: 100%;
+    margin-bottom: 0;
+    text-align: center;
+}
+#startlearning {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column; 
+    background-color: rgb(233, 233, 233);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-basis: 280;
+}
+
+#startlearning h2 {
+    width: 100%;
+}
+
+.courses { 
+    background-color: white;
+    width: 30%;
+    display: flex; 
+    flex-direction: column;  
+    justify-content: center; 
+    margin: 32px 24px;
+}
+
+.courses img { 
+    width: 100%;
+    height: auto;
+}
+
+.courses span { 
+    text-transform: uppercase;
+}
+
+.courses h3 p { 
+    padding: 16px; 
+}
 
 /* Thesis Exhibit Section */
 

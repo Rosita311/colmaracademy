@@ -180,19 +180,18 @@ button {
     flex-direction: column;
     justify-content: center;
     flex-basis: 280;
+    
 }
 
 #startlearning h2 {
     width: 100%;
 }
 
-.courses { 
-    background-color: white;
+.courses {
     width: 30%;
-    display: flex; 
-    flex-direction: column;  
-    justify-content: center; 
-    margin: 32px 24px;
+    background-color: white;
+    margin: 16px 12px;
+    
 }
 
 .courses img { 
@@ -206,6 +205,17 @@ button {
 
 .courses h3 p { 
     padding: 16px; 
+}
+
+#catalog{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0 32px 32px 32px;
+}
+
+.information {
+    padding: 16px;
 }
 
 /* Thesis Exhibit Section */

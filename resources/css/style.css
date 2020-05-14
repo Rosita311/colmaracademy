@@ -1,5 +1,5 @@
 /* Universal styles */
-html {
+body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 16px;
     color: #222222;
@@ -16,7 +16,6 @@ html {
     background-color: white;
     Top: 0;
     background-color: white;
-    border: 1px solid green;
 }
 
 .desktop-header img {
@@ -65,7 +64,6 @@ nav {
     display: flex;
     justify-content: center;
     width: 100%;
-    border: 1px solid red;
     
 }
  .left-image1 {
@@ -102,19 +100,15 @@ button {
     justify-content: center;
     align-items: flex-start;
     padding: 64px 0;
-    border: 1px solid blue;
-    
 }
 
 .left-image2 {
     width: 60%;
     padding: 32px 24px;
-    
 }
 
 .left-image2 img {
    width: 100%;
-   
 }
 
 .right-columns {
@@ -165,7 +159,6 @@ button {
     /* width: 1200px; */
     margin-bottom: 0;
     text-align: center;
-    border: 1px solid orange;
 }
 
 #startlearning {
@@ -179,7 +172,6 @@ button {
     flex-direction: column;
     justify-content: center;
     flex-basis: 280;
-    border: 1px solid yellow;
 }
 
 
@@ -218,7 +210,6 @@ button {
     padding-bottom: 0;
     /* width: 1200px; */
     text-align: center;
-    border: 1px solid purple;
 }
 
 #thesis {
@@ -226,8 +217,7 @@ button {
     justify-content: center;
     /* width: 1200px; */
     align-items: flex-start;
-    padding: 32px 0;
-    border: 1px solid brown;  
+    padding: 32px 0; 
 }
 
 .left-image3 {
@@ -246,8 +236,6 @@ footer {
     display: flex;
     justify-content: stretch;
     border-top: 1px solid rgb(233, 233, 233);
-    border: 1px solid seagreen;
-    
 }
 
 #copyright {

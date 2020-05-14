@@ -5,12 +5,7 @@ html {
     color: #222222;
 }
 
-body, html {
-        margin:0;
-        padding:0;
-        width: 100%;
-        overflow-x: hidden;
-    }
+
 
 /* Header Section */
 .desktop-header { 
@@ -70,7 +65,6 @@ nav {
     background-size: cover;
     top:64px;
     display: flex;
-    position: relative;
     justify-content: center;
     width: 100%;
     border: 1px solid red;
@@ -131,7 +125,7 @@ button {
     justify-content: center;
     width: 40%;
     padding: 18px;
-    margin-right: 40px;
+    margin-right: 40px; 
 }
 
 .column {
@@ -170,14 +164,13 @@ button {
 #h2start {
     background-color:rgb(233, 233, 233) ;
     padding: 32px;
-    width: 1200px;
+    /* width: 1200px; */
     margin-bottom: 0;
     text-align: center;
     border: 1px solid orange;
 }
 
 #startlearning {
-    position: relative;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -225,7 +218,7 @@ button {
 #h2thesis {
     padding: 32px;
     padding-bottom: 0;
-    width: 1200px;
+    /* width: 1200px; */
     text-align: center;
     border: 1px solid purple;
 }
@@ -233,7 +226,7 @@ button {
 #thesis {
     display: flex;
     justify-content: center;
-    width: 1200px;
+    /* width: 1200px; */
     align-items: flex-start;
     padding: 32px 0;
     border: 1px solid brown;  

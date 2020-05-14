@@ -5,8 +5,6 @@ html {
     color: #222222;
 }
 
-
-
 /* Header Section */
 .desktop-header { 
     display: flex;
@@ -26,12 +24,12 @@ html {
 }
 
 .desktop-header h1 {
-    font-weight: normal;
     text-transform: uppercase;
     font-size: 24px;
 }
 .desktop-header h1 span {
-     font-weight: bold;
+     font-weight: normal;
+     color: grey;
  }
 
 nav {

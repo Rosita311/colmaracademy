@@ -247,5 +247,26 @@ button {
 /* Mobile Thesis Section */
 
 /* Footer Section */
+footer {
+    display: flex;
+    justify-content: stretch;
+    border-top: 1px solid rgb(233, 233, 233);
+    
+}
+
+#copyright {
+    color: grey;
+    text-align: left;
+    margin-left: 24px;
+    margin-right: auto;
+    padding-top: 16px;
+}
+
+#terms{
+    color: grey;
+    text-align: right;
+    margin-right: 24px;
+    padding-top: 16px;
+}
 
 /* Mobile Footer Section */

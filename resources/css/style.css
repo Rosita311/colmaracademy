@@ -2,13 +2,12 @@
 html {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 16px;
-    margin-left: 24px;
-    margin-right: 24px;
     color: #222222;
 }
 
 body {
-    width: 1200px;
+    width: 100%;
+
 }
 /* Header Section */
 .desktop-header { 
@@ -36,10 +35,6 @@ body {
      font-weight: bold;
  }
 
- .mobile-header {
-     display: none;
- }
-
 nav {
     margin-left: auto;
     margin-right: 48px;
@@ -60,10 +55,15 @@ nav {
  }
 
  /* .mobile-header  */
+.mobile-header {
+    display: none;
+}
+
 
 /* Start Here Section */
  #starthere { 
     background-color: rgb(214, 214, 214);
+    background-size: cover;
     top:64px;
     display: flex;
     position: relative;
@@ -141,24 +141,26 @@ button {
     height: auto;
 }
 
-.about-images { 
+.block-images { 
     width: 35%;
     height: auto;
 }
 
-#lecture {
+#grey {
     background-color:rgb(214, 214, 214);
 }
 
-.about-text {
+.block-text {
     width: 65%;
     padding: 0 16px;
 }
 
-.about-text a {
+.block-text a {
     color: rgb(90, 146, 168);
     text-decoration: none;
 }
+
+/* Mobile About Section */
 
 /* Start Learning Section */
 #h2start {
@@ -168,6 +170,7 @@ button {
     margin-bottom: 0;
     text-align: center;
 }
+
 #startlearning {
     position: relative;
     display: flex;
@@ -180,7 +183,6 @@ button {
     flex-direction: column;
     justify-content: center;
     flex-basis: 280;
-    
 }
 
 #startlearning h2 {
@@ -190,8 +192,7 @@ button {
 .courses {
     width: 30%;
     background-color: white;
-    margin: 16px 12px;
-    
+    margin: 16px 12px 
 }
 
 .courses img { 
@@ -201,10 +202,6 @@ button {
 
 .courses span { 
     text-transform: uppercase;
-}
-
-.courses h3 p { 
-    padding: 16px; 
 }
 
 #catalog{
@@ -218,6 +215,37 @@ button {
     padding: 16px;
 }
 
+/* Mobile Start Learning Section */
+
 /* Thesis Exhibit Section */
+#h2thesis {
+    padding: 32px;
+    padding-bottom: 0;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+#thesis {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-items: flex-start;
+    padding: 32px 0;
+    
+}
+
+.left-image3 {
+    width: 60%;
+    padding: 0 24px 32px 24px;
+}
+
+.movie video { 
+    width: 100%;
+}
+
+/* Mobile Thesis Section */
 
 /* Footer Section */
+
+/* Mobile Footer Section */

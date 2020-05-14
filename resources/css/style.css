@@ -6,9 +6,9 @@ html {
 }
 
 body {
-    width: 100%;
-
+    background-size: cover;
 }
+
 /* Header Section */
 .desktop-header { 
     display: flex;
@@ -20,6 +20,7 @@ body {
     background-color: white;
     Top: 0;
     background-color: white;
+    border: 1px solid green;
 }
 
 .desktop-header img {
@@ -69,6 +70,7 @@ nav {
     position: relative;
     justify-content: center;
     width: 100%;
+    border: 1px solid red;
     
 }
  .left-image1 {
@@ -103,9 +105,9 @@ button {
 #about { 
     display: flex;
     justify-content: center;
-    width: 100%;
     align-items: flex-start;
     padding: 64px 0;
+    border: 1px solid blue;
     
 }
 
@@ -133,7 +135,6 @@ button {
     padding: 16px;
     display: flex;
     flex-direction: row;
-    width: 90%;
 }
 
 .column img {
@@ -166,9 +167,10 @@ button {
 #h2start {
     background-color:rgb(233, 233, 233) ;
     padding: 32px;
-    width: 100%;
+    width: 1200px;
     margin-bottom: 0;
     text-align: center;
+    border: 1px solid orange;
 }
 
 #startlearning {
@@ -183,11 +185,10 @@ button {
     flex-direction: column;
     justify-content: center;
     flex-basis: 280;
+    border: 1px solid yellow;
 }
 
-#startlearning h2 {
-    width: 100%;
-}
+
 
 .courses {
     width: 30%;
@@ -221,17 +222,18 @@ button {
 #h2thesis {
     padding: 32px;
     padding-bottom: 0;
-    width: 100%;
-    margin: auto;
+    width: 1200px;
     text-align: center;
+    border: 1px solid purple;
 }
 
 #thesis {
     display: flex;
     justify-content: center;
-    width: 100%;
+    width: 1200px;
     align-items: flex-start;
-    padding: 32px 0;  
+    padding: 32px 0;
+    border: 1px solid brown;  
 }
 
 .left-image3 {
@@ -250,6 +252,7 @@ footer {
     display: flex;
     justify-content: stretch;
     border-top: 1px solid rgb(233, 233, 233);
+    border: 1px solid seagreen;
     
 }
 

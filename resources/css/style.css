@@ -5,6 +5,13 @@ body {
     color: #222222;
 }
 
+@media only screen and (max-width: 800px) {
+    body {
+        overflow-x;
+        padding-right: 0;
+    }
+}
+
 /* Header Section */
 .desktop-header { 
     display: flex;
@@ -400,3 +407,8 @@ footer {
 }
 
 /* Mobile Footer Section */
+@media only screen and (max-width: 800px) { 
+    #terms {
+        display: none;
+    }
+}

@@ -52,13 +52,13 @@ nav {
  }
 
  /* Mobile Header Section */
-@media only screen and (min-width: 801px) {
+@media only screen and (min-width: 701px) {
     .mobile-header {
         display: none;
     }    
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 700px) {
     .desktop-header {
         display: none;
     }
@@ -124,7 +124,7 @@ button {
 }
 /* Mobile Start Here Section */
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 700px) {
     #starthere { 
         background-color: rgb(214, 214, 214);
         background-size: cover;
@@ -166,7 +166,7 @@ button {
 }
 
 /* About Section */
-@media only screen and (min-width: 801px) {
+@media only screen and (min-width: 701px) {
     .mobile-images {
         display: none;
     }  
@@ -227,7 +227,7 @@ button {
     }
 }
 /* Mobile About Section */
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 700px) {
     .left-image2 {
         display: none;
     }
@@ -330,7 +330,7 @@ button {
 }
 
 /* Mobile Start Learning Section */
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 700px) {
     #h2start {
         background-color: white;
     }
@@ -381,7 +381,7 @@ button {
 }
 
 /* Mobile Thesis Section */
-@media only screen and (max-width: 800px) { 
+@media only screen and (max-width: 700px) { 
     .urban-text, #mobile-thesis {
         display: none;
     }
@@ -414,7 +414,7 @@ footer {
 }
 
 /* Mobile Footer Section */
-@media only screen and (max-width: 800px) { 
+@media only screen and (max-width: 700px) { 
     #terms {
         display: none;
     }

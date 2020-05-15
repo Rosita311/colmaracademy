@@ -51,10 +51,39 @@ nav {
  }
 
  /* .mobile-header  */
-.mobile-header {
-    display: none;
+@media only screen and (min-width: 801px) {
+    .mobile-header {
+        display: none;
+    }    
 }
 
+@media only screen and (max-width: 800px) {
+    .desktop-header {
+        display: none;
+    }
+
+    .mobile-header {
+        display: flex;
+        position: fixed;
+        height: 64px;
+        width: 100%;
+        align-items: center;
+        z-index: 1;
+        background-color: white;
+        Top: 0;
+        background-color: white;
+        border-bottom: 1px solid rgb(233, 233, 233);
+        }
+
+        li a {
+            text-decoration: none;
+            color: black;
+            display: flex;
+            float: right;
+            margin: 42px;
+            text-align: center;
+        }
+}
 
 /* Start Here Section */
  #starthere { 
@@ -93,6 +122,13 @@ button {
     width: 100%;
 }
 /* Mobile Start Here Section */
+@media only screen and (min-width: 801px) {
+       
+}
+
+@media only screen and (max-width: 800px) {
+    
+}
 
 /* About Section */
 #about { 

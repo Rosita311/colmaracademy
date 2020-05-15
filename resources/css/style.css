@@ -244,7 +244,7 @@ button {
     }
 
     .mobile-images img {
-        max-width: 93%; 
+        max-width: 100%; 
         min-width: 50%; 
         margin: auto;
         margin-left: -4px;  

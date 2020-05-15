@@ -224,6 +224,56 @@ button {
 }
 
 /* Mobile About Section */
+@media only screen and (min-width: 801px) {
+    .mobile-images {
+        display: none;
+    }  
+    
+}
+
+@media only screen and (max-width: 800px) {
+    .left-image2 {
+        display: none;
+    }
+
+    .block-images {
+        display: none;
+    }
+
+    .mobile-images {
+        width: 100%;
+    }
+
+    #about { 
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        padding: 0;
+        position: relative;
+        width: 100%;
+    }
+    #grey {
+        background-color: white;
+    }
+
+    .right-columns {
+        margin: 0;
+    }
+
+    .block-text {
+        width: 100%;
+        padding: 0 16px;
+    }
+
+    .column {
+        width: 100%;
+        display: flex;
+        flex-flow: column wrap;
+        align-items: center;
+        padding-top: 48px;
+    }
+
+}
 
 /* Start Learning Section */
 #h2start {

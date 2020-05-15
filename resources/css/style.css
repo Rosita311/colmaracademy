@@ -243,7 +243,7 @@ button {
     }
 
     .mobile-images img {
-        max-width: 100%; 
+        max-width: 90%; 
         min-width: 50%; 
         margin: auto;
         margin-left: -16px; 

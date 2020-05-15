@@ -80,6 +80,7 @@ nav {
             display: flex;
             float: right;
             margin: 42px;
+            margin-right: 20px;
             text-align: center;
         }
 }
@@ -163,9 +164,6 @@ button {
        margin: 16px;
        font-size: 2em;
        font-weight: bold;
-    
-   }
-
 }
 
 /* About Section */

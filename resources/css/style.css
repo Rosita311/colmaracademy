@@ -351,7 +351,7 @@ button {
         background-color: white;
     }
 
-    .courses img, p {
+    .courses img, .courses p {
         display: none;
     }
 

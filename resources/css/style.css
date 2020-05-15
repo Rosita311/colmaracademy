@@ -164,6 +164,7 @@ button {
        margin: 16px;
        font-size: 2em;
        font-weight: bold;
+   }
 }
 
 /* About Section */
@@ -228,7 +229,6 @@ button {
 #h2start {
     background-color:rgb(233, 233, 233) ;
     padding: 32px;
-    /* width: 1200px; */
     margin-bottom: 0;
     text-align: center;
 }

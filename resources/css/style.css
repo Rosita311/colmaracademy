@@ -229,8 +229,6 @@ button {
     }
 }
 /* Mobile About Section */
-
-
 @media only screen and (max-width: 800px) {
     .left-image2 {
         display: none;
@@ -244,6 +242,8 @@ button {
         max-width: 100%;
         min-width: 50%;
         margin: auto;
+        margin-left: -16px;
+        
     }
 
     #about { 
@@ -253,9 +253,10 @@ button {
         padding: 0;
         width: 100%;
         margin-top: 64px;
-        margin-left: -16px;
         
+        /* margin-left: -16px;  */
     }
+
     #grey {
         background-color: white;
     }
@@ -282,7 +283,6 @@ button {
         flex-flow: column wrap;
         align-items: center;
         padding-top: 0;
-        
     }
 
 }
@@ -307,8 +307,6 @@ button {
     justify-content: center;
     flex-basis: 280;
 }
-
-
 
 .courses {
     width: 30%;

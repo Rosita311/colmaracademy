@@ -50,7 +50,7 @@ nav {
      text-align: center;
  }
 
- /* .mobile-header  */
+ /* Mobile Header Section */
 @media only screen and (min-width: 801px) {
     .mobile-header {
         display: none;
@@ -81,6 +81,7 @@ nav {
             display: flex;
             float: right;
             margin: 42px;
+            margin-right: 20px;
             text-align: center;
         }
 }

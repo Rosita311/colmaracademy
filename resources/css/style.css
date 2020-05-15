@@ -356,8 +356,9 @@ button {
 
     .courses {
         background-color: rgb(233, 233, 233);
-        margin: 8px 16px 8px 16px;
+        /* margin: 8px 16px 8px 16px; */
         width: 100%; 
+        padding: 10px 25px;
     }
 }
 /* Thesis Exhibit Section */

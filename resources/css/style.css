@@ -81,7 +81,6 @@ nav {
             display: flex;
             float: right;
             margin: 42px;
-            margin-right: 20px;
             text-align: center;
         }
 }
@@ -94,8 +93,8 @@ nav {
     display: flex;
     justify-content: center;
     position: relative;
-    
 }
+
  .left-image1 {
      width: 60%;
  }
@@ -128,7 +127,45 @@ button {
 }
 
 @media only screen and (max-width: 800px) {
+    #starthere { 
+        background-color: rgb(214, 214, 214);
+        background-size: cover;
+        top:64px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .left-image1 {
+        width: 100%;
+    }
+   
+    .left-image1 img {
+        width: 100%;
+        margin: 0;
+    }
+
+   .right-text {
+       display: flex;
+       flex-direction: column;
+       align-items: baseline;
+       width: 100%;
+       padding: 32px 16px;
+       font-size: 0.75em;
+
+   }
+   
+   button {
+       background-color: #222222;
+       padding: 16px;
+       border: 1px solid #222222;
+       color: white;
+       width: 80%;
+       margin: 16px;
+       font-size: 0.75em;
     
+   }
+
 }
 
 /* About Section */

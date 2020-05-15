@@ -168,68 +168,68 @@ button {
 }
 
 /* About Section */
-#about { 
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    padding: 64px 0;
-}
-
-.left-image2 {
-    width: 60%;
-    padding: 32px 24px;
-}
-
-.left-image2 img {
-   width: 100%;
-}
-
-.right-columns {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 40%;
-    padding: 18px;
-    margin-right: 40px; 
-}
-
-.column {
-    padding: 16px;
-    display: flex;
-    flex-direction: row;
-}
-
-.column img {
-    width: 100%;
-    height: auto;
-}
-
-.block-images { 
-    width: 35%;
-    height: auto;
-}
-
-#grey {
-    background-color:rgb(214, 214, 214);
-}
-
-.block-text {
-    width: 65%;
-    padding: 0 16px;
-}
-
-.block-text a {
-    color: rgb(90, 146, 168);
-    text-decoration: none;
-}
-
-/* Mobile About Section */
 @media only screen and (min-width: 801px) {
     .mobile-images {
         display: none;
     }  
-    
+
+    #about { 
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        padding: 64px 0;
+    }
+
+    .left-image2 {
+        width: 60%;
+        padding: 32px 24px;
+    }
+
+    .left-image2 img {
+    width: 100%;
+    }
+
+    .right-columns {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 40%;
+        padding: 18px;
+        margin-right: 40px; 
+    }
+
+    .column {
+        padding: 16px;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .column img {
+        width: 100%;
+        height: auto;
+    }
+
+    .block-images { 
+        width: 35%;
+        height: auto;
+    }
+
+    #grey {
+        background-color:rgb(214, 214, 214);
+    }
+
+    .block-text {
+        width: 65%;
+        padding: 0 16px;
+    }
+
+    .block-text a {
+        color: rgb(90, 146, 168);
+        text-decoration: none;
+    }
 }
+/* Mobile About Section */
+
 
 @media only screen and (max-width: 800px) {
     .left-image2 {
@@ -251,6 +251,7 @@ button {
         padding: 0;
         position: relative;
         width: 100%;
+        flex-shrink: 1;
     }
     #grey {
         background-color: white;
@@ -258,11 +259,12 @@ button {
 
     .right-columns {
         margin: 0;
+        padding: 0;
     }
 
     .block-text {
         width: 100%;
-        padding: 0 16px;
+        padding: 16px;
     }
 
     .column {
@@ -270,7 +272,7 @@ button {
         display: flex;
         flex-flow: column wrap;
         align-items: center;
-        padding-top: 48px;
+        padding-top: 32px 16px;
     }
 
 }

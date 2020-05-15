@@ -5,9 +5,9 @@ body {
     color: #222222;
 }
 
-@media only screen and (max-width: 800px) {
+/* @media only screen and (max-width: 800px) { */
     body {
-        overflow-x;
+        overflow-x: hidden;
         padding-right: 0;
     }
 }
@@ -129,9 +129,6 @@ button {
     width: 100%;
 }
 /* Mobile Start Here Section */
-@media only screen and (min-width: 801px) {
-
-}
 
 @media only screen and (max-width: 800px) {
     #starthere { 
@@ -343,11 +340,25 @@ button {
 
 /* Mobile Start Learning Section */
 @media only screen and (max-width: 800px) {
-    #catalog{
+    #h2start {
+        background-color: white;
+    }
+    #catalog {
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
         padding: 0 32px 32px 32px;
+        background-color: white;
+    }
+
+    .courses img, p {
+        display: none;
+    }
+
+    .courses {
+        background-color: rgb(233, 233, 233);
+        margin: 8px 16px 8px 16px;
+        width: 100%;
     }
 }
 /* Thesis Exhibit Section */

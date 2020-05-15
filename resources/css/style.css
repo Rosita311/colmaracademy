@@ -247,8 +247,8 @@ button {
         max-width: 100%; 
         min-width: 50%; 
         margin: auto;
-        margin-left: -16px; 
-        margin-right: -16px;
+        /* margin-left: -16px;  
+        margin-right: -16px; */
         
     }
 

@@ -351,6 +351,10 @@ button {
         background-color: white;
     }
 
+    .information {
+        padding-right: 0;
+    }
+
     .courses img, .courses p {
         display: none;
     }
